@@ -32,3 +32,13 @@
   background-size: cover;
   background-position: bottom;
 }
+.event-info {
+  background-image: url(../public/event-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.survey {
+  background-image: url(../public/survey.jpeg);
+  background-size: cover;
+  background-position: center;
+}

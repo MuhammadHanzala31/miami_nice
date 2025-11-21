@@ -14,7 +14,7 @@ export default function Navbar() {
         {
             _id: 2,
             name: "Prices",
-            path: '/price'
+            path: '/prices'
         },
         {
             _id: 3,
@@ -23,13 +23,13 @@ export default function Navbar() {
         },
         {
             _id: 4,
-            name: "Sponsors",
-            path: '/sponsors'
+            name: "Survey",
+            path: '/survey'
         },
         {
             _id: 5,
-            name: "Contact",
-            path: '/contact'
+            name: "Legal Notice",
+            path: '/legal-notice'
         },
     ]
 
@@ -43,7 +43,7 @@ export default function Navbar() {
                 <div className='flex items-center gap-6 font-inter'>
                     {
                         nav.map((item) => (
-                            <Link key={item._id} href={item.path} className='text-lg font-medium text-black'>{item.name}</Link>
+                            <Link key={item._id} href={item.path} className='text-lg font-medium text-black hover:text-[#DD5C9C]'>{item.name}</Link>
                         ))
                     }
                 </div>
