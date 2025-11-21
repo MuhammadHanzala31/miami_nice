@@ -31,6 +31,11 @@ export default function Navbar() {
             name: "Legal Notice",
             path: '/legal-notice'
         },
+        {
+            _id: 6,
+            name: "Refunds",
+            path: '/refunds'
+        },
     ]
 
 
