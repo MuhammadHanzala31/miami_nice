@@ -52,7 +52,7 @@ export default function Navbar() {
                         ))
                     }
                 </div>
-                <button className='h-full bg-[#DD5C9C] px-10 py-7 text-white font-semibold text-lg cursor-pointer hover:opacity-90'>Registration</button>
+                <Link href={'/registeration'} className='h-full bg-[#DD5C9C] px-10 py-7 text-white font-semibold text-lg cursor-pointer hover:opacity-90'>Registration</Link>
             </div>
         </nav>
     )

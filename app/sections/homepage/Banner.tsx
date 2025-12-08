@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Banner() {
     return (
@@ -8,7 +9,7 @@ export default function Banner() {
                     <h6 className='font-inter lg:text-[70px] text-3xl font-normal text-white'>30th Annual </h6>
                     <h1 className='font-tilt-wrap font-normal lg:text-[120px] text-6xl text-white'>EDUCATIONAL SYMPOSIUM</h1>
                     <div className='flex lg:flex-row flex-col justify-between lg:items-center items-start mt-3.5'>
-                        <button className='bg-[#27D7DF] px-8 py-2 text-white font-tilt-wrap text-lg rounded-3xl cursor-pointer hover:scale-[1.1] transition-all'>Register Now</button>
+                        <Link href={'/registeration'} className='bg-[#27D7DF] px-8 py-2 text-white font-tilt-wrap text-lg rounded-3xl cursor-pointer hover:scale-[1.1] transition-all'>Register Now</Link>
                         <span className='font-inter lg:text-[40px] italic font-normal text-white'>May 3rd-4th, 2025</span>
                     </div>
                 </div>
