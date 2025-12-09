@@ -360,7 +360,9 @@ export default function Page() {
                     >
                       <PayPalButtons
                         style={{ layout: "vertical" }}
-                        createOrder={() => orderId}
+                        createOrder={async () => {
+                          return orderId;
+                        }}
                         onApprove={async () => {
                           const captureRes = await fetch("/api/capture-payment", {
                             method: "POST",
